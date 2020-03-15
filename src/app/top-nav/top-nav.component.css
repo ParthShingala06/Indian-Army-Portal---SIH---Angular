@@ -1,0 +1,127 @@
+.sidenav-container {
+  height: 100%;
+}
+.navbar-container{
+  margin-left: 0px;
+}
+html,body{
+  height: 100%;
+}
+
+.sidenav {
+  width: 240px;
+  
+}
+
+.CR{
+  padding-top: 230px;
+  text-align: center;
+  color: darkslategray;
+  size: 20px;
+  font-weight: 300;
+}
+.sidenav .mat-toolbar {
+  background: inherit;
+  height: 0px;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.text-white{
+  color: white;
+}
+
+.side_icon{
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+
+.navbar-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: navbar-container-padding;
+      
+ }
+
+ .navbar__content {
+  flex: 3 0 0;
+  padding-left: 0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+
+  
+}
+
+.navbar-header {
+  width: auto;
+  margin-right: 7px;
+  line-height: navbar-new-height;
+
+  
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.Sidebar{
+  margin-left: 300%;
+  margin-top: 10px;
+  scrollbar-darkshadow-color: rgba(21, 12, 99, 0.562);
+  color: #13124181;
+  background-color: #13124186;
+  height: 2px;
+}
+.Home{
+  text-size-adjust: 20px;
+  margin-top: 40px;
+}
+
+.List{
+  margin-top: 50px;
+}
+.navbar-btn__main {
+  box-shadow: none;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.navbar__header {
+  color:rgb(0, 0, 0);
+}
+
+.navbar_sideicon{
+  margin-right: 20px;
+  color:white;
+}
+.sidenav a.active {
+  background-color: #131241;
+  color: rgb(0, 0, 0);
+}
+
+.sidenav a:hover(.active) {
+  background-color: #000000;
+  color: rgb(155, 148, 148);
+  opacity: 100%;
+  
+}
+
+.side_icon a.active{
+  margin-right: 20px;
+  color:red;
+}
+
+.mat-nav-list{
+  padding-top: 12px;
+  padding-bottom: 20px;
+  
+  
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body >
+<div class="Sidebar">
+  <nav class="row navbar navbar-default navbar" style="background-color:rgba(19, 8, 34, 0)">
+	<div class="navbar-container">
+			<mat-sidenav-container class="sidenav-container" style="background-color:rgba(20, 18, 18, 0)">
+          <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
+					    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+					    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+							[opened]="!(isHandset$ | async)"
+							style="background-color: rgba(74, 174, 187, 0.658)">
+					  <mat-toolbar class="text-white"></mat-toolbar>
+					  <mat-nav-list class="text-white">
+					    
+						<div >
+						<mat-nav-list class="text-white">
+						  <a style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"mat-list-item routerLink="/map" 
+						  routerLinkActive="active" style="font-size: x-large; font-weight: 500;"><mat-icon class = "Home" aria-label
+						  ="Side nav home" class="side_icon">home</mat-icon>Home</a>
+						</mat-nav-list>
+						</div>
+					    <!-- <mat-nav-list class="text-white">
+					      <a mat-list-item routerLink="history" routerLinkActive="active"><mat-icon aria-label="Side nav home" class="side_icon">replay</mat-icon>History</a>
+					      <a mat-list-item href="#"><mat-icon aria-label="Side nav home" class="side_icon">queue_play_next</mat-icon>Queue</a>
+					      <a mat-list-item href="#"><mat-icon aria-label="Side nav home" class="side_icon">thumb_up</mat-icon>Liked Videos</a>
+					    </mat-nav-list> -->
+					   <div class="List">
+						<mat-nav-list class="text-white">
+						  <a style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;"mat-list-item routerLink=
+						  "/list"><mat-icon aria-label="Side nav home" class="side_icon">playlist_play</mat-icon>List</a>
+					    </mat-nav-list>
+
+					    <mat-nav-list class="text-white">
+						  <a style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;"mat-list-item routerLink=
+						  "/list"><mat-icon aria-label="Side nav home" class="side_icon">settings</mat-icon>Health Center</a>
+						</mat-nav-list> 
+						<mat-nav-list class="text-white">
+					      <a style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;"mat-list-item routerLink="/map"><mat-icon aria-label="Side nav home" class="side_icon">help</mat-icon>Help</a>
+						</mat-nav-list> 
+						<mat-nav-list class="text-white"> 
+						  <a style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;"mat-list-item routerLink="/emg"><mat-icon 
+							aria-label="Side nav home" class="side_icon">feedback</mat-icon>Emergency &nbsp;&nbsp;  <h5 style="color: red;">2</h5></a>
+					    </mat-nav-list>
+					</div>
+					<h5 class="CR" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+						@Copyrights K-Map
+					</h5> 
+					</mat-nav-list>
+					</mat-sidenav>
+				
+				      </mat-sidenav-container>
+		<div class="navbar__content">
+			<h3 *ngIf="header" class="navbar__header navbar-text">
+				<button *ngIf="mainIcon" class="navbar-btn__main btn-transparent"
+				(click)="handleMainIconClick()">
+				
+				</button>
+				
+			</h3>
+			
+		</div>
+		
+	</div>
+  </nav>
+
+
+  
+</div> 
+	    
+	
+</body >
+</html>

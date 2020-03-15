@@ -1,0 +1,16 @@
+.container{
+    margin-right: 310px;
+    margin-left: 40px;
+}
+
+.panel1{
+    background-color: rgba(33, 212, 42, 0.466);
+}
+
+.panel2{
+    background-color: rgba(220, 255, 62, 0.466);
+}
+
+.panel3{
+    background-color: rgba(230, 47, 15, 0.466);
+}

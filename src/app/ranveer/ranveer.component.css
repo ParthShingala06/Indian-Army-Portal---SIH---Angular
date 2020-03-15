@@ -1,0 +1,39 @@
+.jumbotron{
+    padding-left: 10px;
+    padding-right: 270px;
+    background-color: rgba(55, 137, 143, 0.699);
+}
+.info{
+    padding-left: 10px;
+    padding-right: 260px;
+    
+}
+.center{
+    padding-left: 30px;
+}
+
+.grid-container {
+    margin: 20px;
+  }
+  
+  .dashboard-card {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+  }
+  
+  .more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  
+  .dashboard-card-content {
+    text-align: center;
+  }
+  
+  .dashboard{
+    padding-right: 300px;
+  }
